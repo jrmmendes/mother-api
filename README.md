@@ -53,4 +53,4 @@ make build
 ```
 make flash
 ```
-> You can also use any other valid method, like using `idf.py` respective scripts or using Ninja.
+> You can also use any other valid method, like using `idf.py` respective scripts or Ninja.
