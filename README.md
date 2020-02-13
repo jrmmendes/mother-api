@@ -36,7 +36,7 @@ git clone https://github.com/jrmmendes/mother_api.git
 cd mother_api
 ```
 
-6 - Configure the project ((docs)[https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-7-configure]):
+6 - Configure the project ([docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-7-configure)):
 ```
 make menuconfig
 ```
@@ -44,12 +44,12 @@ make menuconfig
 
 > The colors may be different based on your shell settings.
 
-7 - Build the project ((docs)[https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-8-build-the-project]):
+7 - Build the project ([docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-8-build-the-project)):
 ```
 make build
 ```
 
-8 - Flash onto the device ((docs)[https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-9-flash-onto-the-device]):
+8 - Flash onto the device ([docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-9-flash-onto-the-device)):
 ```
 make flash
 ```
