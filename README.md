@@ -1,5 +1,5 @@
 # Mother API
-ESP-IDF powered firmware to generate a REST API and WIFI access point.
+ESP-IDF powered firmware to REST API and WIFI access point.
 
 [![GitHub issues](https://img.shields.io/github/issues/jrmmendes/mother_api)](https://github.com/jrmmendes/mother_api/issues)
 [![GitHub license](https://img.shields.io/github/license/jrmmendes/mother_api)](https://github.com/jrmmendes/mother_api/blob/master/LICENSE)
