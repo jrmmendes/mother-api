@@ -25,3 +25,32 @@ alias esp-init=cp -r $IDF_PATH/examples/get-started/hello_world .
 ```
 
 Now you can run `esp-activate` on shell to export ESP-IDF system variables (like `IDF_PATH`). It will be required before compiling apps. You can also use `esp-init` to create a simples boilerplate based on the `hello_world` example.
+
+4 - Clone this repository:
+```
+git clone https://github.com/jrmmendes/mother_api.git
+```
+
+5 - Enter the created folder:
+```
+cd mother_api
+```
+
+6 - Configure the project ((docs)[https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-7-configure]):
+```
+make menuconfig
+```
+![Kconfig CLI example](https://docs.espressif.com/projects/esp-idf/en/latest/_images/project-configuration1.png)
+
+> The colors may be different based on your shell settings.
+
+7 - Build the project ((docs)[https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-8-build-the-project]):
+```
+make build
+```
+
+8 - Flash onto the device ((docs)[https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-9-flash-onto-the-device]):
+```
+make flash
+```
+> You can also use any other valid method, like using `idf.py` respective scripts or using Ninja.
