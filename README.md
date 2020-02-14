@@ -54,3 +54,6 @@ make build
 make flash
 ```
 > You can also use any other valid method, like using `idf.py` respective scripts or Ninja.
+
+# References
+- https://techtutorialsx.com/2017/07/29/esp32-idf-setting-a-soft-ap/
