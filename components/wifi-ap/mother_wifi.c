@@ -15,7 +15,7 @@ void configure_wifi_ap(void) {
     esp_wifi_init(&wifiSettings);
 
     // WiFi storage configuration. By default, uses both Flash and Memory.
-    esp_wifi_set_storage(WIFI_STORAGE_RAM);
+    esp_wifi_set_storage(WIFI_STORAGE_FLASH);
 
     // WiFi operation mode. Can be configured to be station mode, soft AP or
     // both. Defaults to soft AP.
