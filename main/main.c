@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "esp_wifi.h"
+#include "mother_wifi.h"
 
-void app_main(void) {
+void app_main() {
+    configure_wifi_ap();
 }

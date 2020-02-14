@@ -1,0 +1,7 @@
+menu "WiFi AP Settings"
+    config WIFI_AP_SSID
+        string "AP SSID"
+        default "MOTHER-API-ACCESS-POINT"
+        help
+            Specify the SSID used in the access point.
+endmenu
