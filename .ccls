@@ -1,0 +1,5 @@
+clang
+-I
+/home/romildo/.esp/esp-idf/components/esp_wifi/include
+-I
+/home/romildo/.esp/esp-idf/components/esp_wifi/src
